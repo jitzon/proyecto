@@ -55,43 +55,41 @@
                         <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-          <! DOCTYPE html>
-<Html lang = "es">
-<Head>
-  <Charset Meta = "UTF-8">
-  <Título> elemento de lengüeta (aquí Widget) Demo </ title>
-  <Link rel = "stylesheet" href = "// code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-  <Script src = "// code.jquery.com/jquery-1.10.2.js"> </ script>
-  <Script src = "// code.jquery.com/ui/1.10.4/jquery-ui.js"> </ script>
-</ Head>
-<Cuerpo>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>标签页部件（Tabs Widget）演示</title>
+  <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+  <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+</head>
+<body>
  
-<div id = "pestañas">
-  <Ul>
-    <Li> <a href="#fragment-1"> <span> a </ span> </a> </ li>
-    <Li> <a href="#fragment-2"> <span> dos </ span> </a> </ li>
-    <Li> <a href="#fragment-3"> <span> tres </ span> </a> </ li>
-  </ Ul>
-  <Div id = "fragmento-1">
-    <P> La primera etiqueta está activada por defecto: </ p>
-    <Code> $ ( "") #tabs .tabs (); </ code>
-  </ Div>
-  <Div id = "fragmento-2">
+<div id="tabs">
+  <ul>
+    <li><a href="#fragment-1"><span>一</span></a></li>
+    <li><a href="#fragment-2"><span>二</span></a></li>
+    <li><a href="#fragment-3"><span>三</span></a></li>
+  </ul>
+  <div id="fragment-1">
+    <p>第一个标签是默认激活的：</p>
+    <pre><code>$( "#tabs" ).tabs(); </code></pre>
+  </div>
+  <div id="fragment-2">
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-  </ Div>
-  <Div id = "fragmento-3">
+  </div>
+  <div id="fragment-3">
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-  </ Div>
-</ Div>
+  </div>
+</div>
  
-<Script>
-$ ( "#tabs") .tabs ();
-</ Script>
+<script>
+$( "#tabs" ).tabs();
+</script>
  
-</ Body>
-</ Html>
+</body>
+</html>
